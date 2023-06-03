@@ -40,7 +40,6 @@
 
 cmake_minimum_required(VERSION 3.2)
 project(glad C)
-
 find_package(PythonInterp REQUIRED)
 
 set(GLAD_CMAKE_DIR "${CMAKE_CURRENT_LIST_DIR}" CACHE STRING "Directory containing glad generator CMakeLists.txt")
